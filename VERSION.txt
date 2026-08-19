@@ -1,0 +1,6 @@
+Weather Station v1.0 FINAL
+CYD: RC15.256 FINAL GLOBAL COMPASS
+LilyGO: V1JA TLS STATUS SCOPE FIX
+Frozen: 2026-08-19
+Stable branch: main
+Next development line: v2.0-development
