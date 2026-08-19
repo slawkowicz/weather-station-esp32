@@ -8,10 +8,10 @@ Stabilna, zamrożona baza projektu stacji pogodowej ESP32.
 
 LilyGO obsługuje odbiór radiowy, BME280, OLED, WWW, konfigurację Wi-Fi/NVS, Adafruit IO przez zweryfikowany TLS i diagnostykę. CYD obsługuje ESP-NOW, kartę SD, historię, wykresy, FOCUS oraz interfejs PL/EN/DE/CZ.
 
-## Wersje zamrożone
+## Firmware v1.0 FINAL
 
-- CYD: `RC15.256 FINAL GLOBAL COMPASS`
-- LilyGO: `V1JA TLS STATUS SCOPE FIX`
+- [CYD_Weather_UI_v1.0_FINAL.ino](CYD_Weather_UI_v1.0_FINAL.ino) — `RC15.256 FINAL GLOBAL COMPASS`
+- [LilyGO_GARNI_HUB_v1.0_FINAL.ino](LilyGO_GARNI_HUB_v1.0_FINAL.ino) — `V1JA TLS STATUS SCOPE FIX`
 
 Firmware v1.0 traktujemy jako punkt powrotu i nie dodajemy do niego nowych funkcji. APRS i dalsze integracje rozwijamy na osobnej gałęzi `v2.0-development`.
 
@@ -21,11 +21,12 @@ LilyGO używa `WiFiClientSecure` z weryfikacją CA. Panel WWW pokazuje stan TLS,
 
 ## Dokumentacja
 
-- `docs/SERVICE.md` — diagnostyka i serwis
-- `docs/BUILD_FLASH.md` — kompilacja i wgrywanie
-- `CHANGELOG.md` — zakres v1.0
+- [docs/SERVICE.md](docs/SERVICE.md) — diagnostyka i serwis
+- [docs/BUILD_FLASH.md](docs/BUILD_FLASH.md) — kompilacja i wgrywanie
+- [CHANGELOG.md](CHANGELOG.md) — zakres v1.0
+- [VERSION.txt](VERSION.txt) — zamrożone wersje firmware
 
 ## Rozwój
 
-`main` = stabilna v1.0.  
+`main` = stabilna v1.0 FINAL.  
 `v2.0-development` = przyszły rozwój, m.in. APRS.
